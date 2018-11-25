@@ -21,10 +21,7 @@ class School
    
    
   end 
-  
-  def self.all
-    @@all 
-  end 
+
   
   def sort 
     @@all.sort 
