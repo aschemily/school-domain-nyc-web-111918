@@ -15,7 +15,8 @@ class School
   end 
   
   def add_student(name, grade)
-    
+   if @school_roster[:grade] == self 
+     @school_roster[:]
   end 
   
 end #end of school class 
