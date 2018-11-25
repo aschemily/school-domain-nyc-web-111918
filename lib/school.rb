@@ -1,13 +1,15 @@
 # code here!
 class School
   
-  # attr_reader :school_name
-  # attr_accessor :school_roster
+  attr_reader :school_name
+  attr_accessor :school_roster
   
-  
+  @@all = []
   def initialized(school_name)
     @school_name = school_name 
     @school_roster = {}
+    
+    @@all << self 
   end 
   
   def school_roster
@@ -21,5 +23,7 @@ class School
      @school_roster[grade] = [name]
    end 
   end 
+  
+  def 
   
 end #end of school class 
