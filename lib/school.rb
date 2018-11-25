@@ -18,7 +18,7 @@ class School
    if @school_roster[grade] == self 
      @school_roster[grade] << name
    else 
-     @school_roster[grade] == [name]
+     @school_roster[grade] = [name]
   end 
   
 end #end of school class 
