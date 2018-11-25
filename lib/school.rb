@@ -28,4 +28,6 @@ class School
     @@all 
   end 
   
+  
+  
 end #end of school class 
