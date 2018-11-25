@@ -12,12 +12,10 @@ class School
     
   end 
   
-  def school_roster
-    @school_roster
-  end 
+
   
   def add_student(name, grade)
-   if @school_roster[grade] == self 
+    @school_roster[grade] == self 
      @school_roster[grade] << name
    else 
      @school_roster[grade] = [name]
