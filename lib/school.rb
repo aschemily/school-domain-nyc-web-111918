@@ -7,7 +7,7 @@ class School
   
   def initialized(school_name, school_roster)
     @school_name = school_name 
-    @school_roster = school_roster
+    @school_roster = {}
   end 
   
 end #end of school class 
