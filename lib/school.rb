@@ -28,6 +28,8 @@ class School
     @@all 
   end 
   
-  
+  def sort 
+    @@all.sort 
+  end 
   
 end #end of school class 
