@@ -24,6 +24,8 @@ class School
    end 
   end 
   
-  def 
+  def self.all
+    @@all 
+  end 
   
 end #end of school class 
