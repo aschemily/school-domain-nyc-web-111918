@@ -9,7 +9,7 @@ class School
     @school_name = school_name 
     @school_roster = {}
     
-    @@all << self 
+    
   end 
   
   def school_roster
